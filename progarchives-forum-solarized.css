@@ -625,15 +625,6 @@
       color: #839496;
    }
 
-   .fileText{
-      background-color: #002b36 !important;
-      color: #839496 !important;
-   }
-
-   .fileText:hover{
-      background-color: #073642 !important;
-      color: #839496 !important;
-   }
 
 
    /* Chat Room */
@@ -669,3 +660,26 @@
 
    }
 } 
+
+/* File Browser */
+
+@-moz-document url-prefix("http://www.progarchives.com/forum/file_browser.asp") {
+   tr {
+      background-color: #002b36 !important;
+      color: #839496 !important;
+   }
+
+   tr:hover{
+      background-color: #073642 !important;
+      color: #839496 !important;
+   }
+
+   .fileText{
+      color: #839496 !important;
+   }
+
+   .fileText:hover{
+      color: #839496 !important;
+   }    
+
+}
